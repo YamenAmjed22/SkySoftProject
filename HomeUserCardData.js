@@ -4,6 +4,7 @@ const profileData = {
     title: "Java Developer",
     imageSrc: "/images/8N7A5921.JPG",
     reportingTo: "Salwa Assem",
+    level: "level 10",
     viewProfileLink: "viewProfile.html"
 };
 
@@ -22,15 +23,15 @@ function createProfileCard(data) {
             </div>
             <div class="card-body">
                 <div class="d-flex align-items-center flex-wrap">
-                    <i class="bi bi-person bi-5x me-2" style="font-size: 2.5rem;"></i>
+                    <i class="bi bi-person bi-5x me-2" style="font-size: 2.5rem; color:green;"></i>
                     <div class="ms-1 me-5">
                         <p class="card-title fw-bold">Reporting To:</p>
                         <h6 class="card-subtitle mb-2 text-body-secondary">${data.reportingTo}</h6>
                     </div>
-                    <i class="bi bi-star bi-5x ms-3 me-2" style="font-size: 2.5rem;"></i>
+                    <i class="bi bi-star bi-5x ms-3 me-2" style="font-size: 2.5rem; color:green;"></i>
                     <div class="ms-1">
-                        <p class="card-title fw-bold">Reporting To:</p>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">${data.reportingTo}</h6>
+                        <p class="card-title fw-bold">Corporate Level:</p>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">${data.level}</h6>
                     </div>
                 </div>
             </div>
