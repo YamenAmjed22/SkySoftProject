@@ -13,10 +13,11 @@
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto; 
 }
 
 .card-body {
-    text-align: center; /* Center-align the content within the card body */
-    padding-top: 20px; /* Add padding to create space for the image */
+    text-align: center; 
+    padding-top: 20px; 
 }
+
